@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quentin-burette
+  labels:
+    app: motd
+spec:
+  containers:
+  - name: motd
+    image: tizianoadv/k8s
