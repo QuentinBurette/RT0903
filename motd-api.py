@@ -1,8 +1,7 @@
-
 import socket
 import json
 import sys
-import requests
+
 
 HOST=''
 

@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def get_message():
     print(os.environ.get('MESSAGE'))
-    message = os.environ.get('MESSAGE', 'Hello World defautlt !!')
+    message = os.environ.get('MESSAGE', 'Hello World default !!')
     return jsonify({'message': message})
 
 if __name__ == '__main__':
